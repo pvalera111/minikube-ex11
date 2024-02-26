@@ -2,7 +2,7 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: days-app-ingress
-  namespace: nginx-namespace
+  namespace: sample
   annotations:
     nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
